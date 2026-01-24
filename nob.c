@@ -1,14 +1,7 @@
 #define NOB_IMPLEMENTATION
 #include "nob.h"
-#define FLAG_IMPLEMENTATION
-#include "flag.h"
 
-static void usage(void)
-{
-    fprintf(stderr, "Usage: %s [<FLAGS>] [--] [<program args>]\n", flag_program_name());
-    fprintf(stderr, "FLAGS:\n");
-    flag_print_options(stderr);
-}
+#define BUILD_FOLDER "build/"
 
 bool build_raylib_exec(Procs *procs, Cmd *cmd, const char *bin_path, const char *src_path)
 {
@@ -31,24 +24,9 @@ int main(int argc, char **argv)
     Cmd cmd = {0};
     Procs procs = {0};
 
-    bool run = false;
-    bool help = false;
-    flag_bool_var(&run, "run", false, "Run the program after compilation.");
-    flag_bool_var(&help, "help", false, "Print this help message.");
-
-    if (!flag_parse(argc, argv)) {
-        usage();
-        flag_print_error(stderr);
-        return 1;
-    }
-
-    if (help) {
-        usage();
-        return 0;
-    }
-
-    if (!build_raylib_exec(&procs, &cmd, "./dbscan", "dbscan.c")) return 1;
-    if (!build_raylib_exec(&procs, &cmd, "./image_segs", "image_segs.c")) return 1;
+    if (!mkdir_if_not_exists(BUILD_FOLDER)) return 1;
+    if (!build_raylib_exec(&procs, &cmd, BUILD_FOLDER"dbscan", "dbscan.c")) return 1;
+    if (!build_raylib_exec(&procs, &cmd, BUILD_FOLDER"image_segs", "image_segs.c")) return 1;
     if (!procs_flush(&procs)) return 1;
 
     return 0;

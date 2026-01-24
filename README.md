@@ -9,6 +9,6 @@ Notes from [DBSCAN](https://en.wikipedia.org/wiki/DBSCAN) exploration session:
 ```console
 $ cc -o nob nob.c
 $ ./nob
-$ ./dbscan
-$ ./image_segs
+$ ./build/dbscan
+$ ./build/image_segs
 ```
